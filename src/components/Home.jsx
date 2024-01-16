@@ -39,9 +39,9 @@ export default function Home() {
 
 
 
-    const clickhandel =(data) => {
+    const clickhandel =(hospital) => {
         
-        navigate('/page2',  {state: data});
+        navigate('/page2',  {state: hospital});
 
     }
     
